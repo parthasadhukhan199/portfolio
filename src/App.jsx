@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <Startup/>
       {showMainContent && (
         <>
@@ -36,7 +36,7 @@ const App = () => {
       )}
 
       
-    </div>
+    </>
   )
 }
 
